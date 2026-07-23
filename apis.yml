@@ -64,6 +64,10 @@ apis:
   - type: Documentation
     url: https://stories.td.com/ca/en/news/2023-12-14-td-bank-group-and-plaid-enter-into-north-american-data-acces
 common:
+- type: DomainSecurity
+  url: security/td-bank-group-domain-security.yml
+- type: LLMsTxt
+  url: llms/td-bank-group-llms.txt
 - type: Website
   url: https://www.td.com/ca/en
 - type: LinkedIn

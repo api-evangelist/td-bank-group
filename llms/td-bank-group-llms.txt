@@ -1,0 +1,42 @@
+# TD.com
+> TD.com is a financial website that lists banking and investing products and services for customers in Canada and the United States.
+
+## Canadian English sections
+- [Commercial Banking](https://www.td.com/content/dam/tdcom/llms-sections/commercial-banking-llms.txt): Financial solutions for mid-to-large businesses, including lending, cash management, trade finance, and industry-specific expertise.
+- [Asset Management](https://www.td.com/content/dam/tdcom/llms-sections/asset-management-llms.txt): Investment management services offering mutual funds, ETFs, and institutional portfolios, focused on diversification and risk management.
+- [Business Banking](https://www.td.com/content/dam/tdcom/llms-sections/business-banking-llms.txt): Banking for established businesses, including accounts, financing, merchant services, payroll, and cash flow tools.
+- [Small Business](https://www.td.com/content/dam/tdcom/llms-sections/small-business-llms.txt): Banking and credit options for entrepreneurs and small businesses, including accounts, payment tools, and financing.
+- [Wealth & Direct Investing](https://www.td.com/content/dam/tdcom/llms-sections/wealth-and-direct-investing-llms.txt): Self-directed and advised investing platforms with trading tools, market information, and portfolio management.
+- [Personal Investing](https://www.td.com/content/dam/tdcom/llms-sections/personal-investing-llms.txt): Investment options and guidance, including mutual funds, portfolios, and advice aligned to goals and risk tolerance.
+- [Credit Cards](https://www.td.com/content/dam/tdcom/llms-sections/credit-cards-llms.txt): Credit card options with rewards, cash back, travel benefits, and tools to compare and manage spending.
+- [Mortgages](https://www.td.com/content/dam/tdcom/llms-sections/mortgages-llms.txt): Home financing for buying, renewing, or refinancing, with rates, terms, and payment tools.
+- [Borrowing](https://www.td.com/content/dam/tdcom/llms-sections/borrowing-llms.txt): Personal loans, lines of credit, and home equity options for flexible access to funds.
+- [Credit Protection](https://www.td.com/content/dam/tdcom/llms-sections/credit-protection-llms.txt): Optional insurance that may help cover loan or credit payments after covered life events.
+- [Travel Insurance](https://www.td.com/content/dam/tdcom/llms-sections/travel-insurance-llms.txt): Travel coverage for medical emergencies, cancellations, and interruptions.
+- [Tools](https://www.td.com/content/dam/tdcom/llms-sections/tools-llms.txt): Calculators and planning tools for budgeting, comparing products, and estimating payments.
+- [Corporate](https://www.td.com/content/dam/tdcom/llms-sections/corporate-llms.txt): Corporate profile, governance, investor relations, ESG, and corporate news.
+- [Everyday Banking](https://www.td.com/content/dam/tdcom/llms-sections/everyday-banking-llms.txt): Chequing and savings accounts, debit cards, and day-to-day money management.
+- [Unclassified](https://www.td.com/content/dam/tdcom/llms-sections/unclassified-llms.txt): Pages that did not match another section rule.
+
+## U.S. English sections
+- [US Credit Cards](https://www.td.com/content/dam/tdcom/llms-sections/us-credit-cards-llms.txt): U.S. credit card pages under /us/en/.
+- [US Personal Banking](https://www.td.com/content/dam/tdcom/llms-sections/us-personal-banking-llms.txt): U.S. personal banking pages under /us/en/.
+- [US Investing](https://www.td.com/content/dam/tdcom/llms-sections/us-investing-llms.txt): U.S. investing and wealth pages under /us/en/.
+- [US Learning](https://www.td.com/content/dam/tdcom/llms-sections/us-learning-llms.txt): U.S. learning and education pages under /us/en/.
+
+## Canadian French sections
+- [Services bancaires commerciaux](https://www.td.com/content/dam/tdcom/llms-sections/services-bancaires-commerciaux-llms.txt): Solutions financières pour les entreprises de taille moyenne à grande, dont le crédit, la gestion de trésorerie et le financement du commerce.
+- [Gestion d’actifs](https://www.td.com/content/dam/tdcom/llms-sections/solutions-de-placement-mondiales-llms.txt): Services de gestion de placements offrant des fonds communs, des FNB et des portefeuilles institutionnels.
+- [Services bancaires aux entreprises](https://www.td.com/content/dam/tdcom/llms-sections/entreprises-llms.txt): Solutions bancaires pour les entreprises : comptes, financement, services aux commerçants, paie et outils de flux de trésorerie.
+- [Petite entreprise](https://www.td.com/content/dam/tdcom/llms-sections/petite-entreprise-llms.txt): Solutions bancaires et de crédit pour les entrepreneurs et les petites entreprises, avec gestion de compte et options de financement.
+- [Mes comptes](https://www.td.com/content/dam/tdcom/llms-sections/mes-comptes-llms.txt): Espace sécurisé pour consulter les soldes, gérer les comptes, payer des factures, faire des virements et suivre l’activité.
+- [Gestion de patrimoine et Placements directs](https://www.td.com/content/dam/tdcom/llms-sections/gestion-de-placements-td-llms.txt): Plateformes de placement avec ou sans conseils, avec outils de négociation, information sur les marchés et gestion de portefeuille.
+- [Placements personnels](https://www.td.com/content/dam/tdcom/llms-sections/investir-llms.txt): Solutions de placement, y compris fonds communs, portefeuilles et conseils financiers selon les objectifs et la tolérance au risque.
+- [Cartes de crédit](https://www.td.com/content/dam/tdcom/llms-sections/cartes-de-credit-llms.txt): Cartes avec récompenses, remises en argent et avantages voyage, avec des outils pour comparer et gérer les dépenses.
+- [Prêts hypothécaires](https://www.td.com/content/dam/tdcom/llms-sections/hypotheques-llms.txt): Financement résidentiel pour acheter, renouveler ou refinancer, avec modalités, taux et outils de paiement.
+- [Emprunter](https://www.td.com/content/dam/tdcom/llms-sections/emprunts-llms.txt): Produits de crédit comme les prêts personnels et les marges de crédit.
+- [Protection du crédit](https://www.td.com/content/dam/tdcom/llms-sections/protection-de-credit-llms.txt): Assurance facultative pouvant aider à couvrir des paiements de prêt ou de crédit après un événement couvert.
+- [Assurance voyage](https://www.td.com/content/dam/tdcom/llms-sections/assurance-voyage-llms.txt): Couverture pour les voyages, notamment urgence médicale, annulation et interruption.
+- [Outils](https://www.td.com/content/dam/tdcom/llms-sections/fr-outil-llms.txt): Calculateurs et outils numériques pour faire un budget, comparer des produits et estimer des paiements.
+- [Société](https://www.td.com/content/dam/tdcom/llms-sections/a-propos-de-la-td-llms.txt): Gouvernance, direction, relations avec les investisseurs, ESG et nouvelles de l’entreprise.
+- [Services bancaires au quotidien](https://www.td.com/content/dam/tdcom/llms-sections/services-bancaires-personnels-llms.txt): Comptes chèques et d’épargne, cartes de débit et gestion de l’argent au quotidien.
