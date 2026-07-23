@@ -1,0 +1,82 @@
+aid: td-bank-group
+name: TD Bank Group
+review:
+  question: Does the Canadian TD Bank Group parent expose a first-party public developer API or downloadable OpenAPI, or is consumer data access aggregator-only?
+  answer: false
+  date: '2026-07-23'
+  reviewer: API Evangelist
+findings:
+  summary: |
+    TD Bank Group (The Toronto-Dominion Bank), the Canadian Big Six parent, does
+    not publish a first-party public developer API or any downloadable
+    OpenAPI/Swagger for the Canadian entity as of the review date. Canada's
+    open-finance regime is voluntary and not yet operational: the Consumer-Driven
+    Banking Act was legislated in 2024 but implementation is still pending, so
+    there is no mandated first-party data-access API. Today, consumer financial
+    data sharing at TD is aggregator-based — TD Bank Group and Plaid entered into
+    a North American data-access agreement announced December 14, 2023, giving TD
+    customers in Canada and the U.S. a more secure way to connect to Plaid's
+    network of apps. Access is partner-gated (vetted aggregators/fintechs), not
+    openly self-serve, and no public spec is downloadable.
+
+    DISTINCT-ENTITY NOTE: An FDX-aligned, Akoya-based open-banking API suite
+    (Account Basic/Detailed, Customer, Transactions, Statements, Tax Forms, Bill
+    Payment, Rewards, Consent, Token/Service Token, Apps Management) is published
+    at developer.td.com, but that portal belongs to the U.S. subsidiary TD Bank,
+    N.A. (America's Most Convenient Bank) and is profiled separately under the
+    api-evangelist/td-bank repo — it must NOT be attributed to this Canadian
+    parent. From this environment developer.td.com did not resolve (DNS
+    ENOTFOUND / HTTP 000), consistent with a US-scoped host.
+  posture:
+    firstPartyDeveloperPortal: false
+    developerPortalUrl: ""
+    downloadableOpenAPI: false
+    fdxParticipant: false
+    fdxNote: FDX/Akoya suite is the U.S. TD Bank, N.A. entity, not the Canadian parent.
+    section1033Posture: not-applicable (Canadian institution; US CFPB 1033 does not apply to the Canadian parent)
+    consumerDrivenBankingPosture: >-
+      Publicly supportive of secure customer-permissioned data sharing ahead of
+      Canada's Consumer-Driven Banking framework; framework legislated 2024, not
+      yet operational.
+    dataAccessModel: aggregator-based (Plaid North American data-access agreement, Dec 2023)
+    authModel: not publicly documented for the Canadian entity (no public dev portal)
+    canadianRails:
+      interac: Supports Interac e-Transfer for personal and business customers.
+      realTimeRail: >-
+        Participant in Canada's payments modernization; Payments Canada's
+        Real-Time Rail (RTR) uses Interac as the exchange solution provider and
+        supports ISO 20022. TD does not expose a first-party RTR developer API;
+        the RTR sandbox/developer portal is operated by Payments Canada.
+  transports:
+    - protocol: REST
+      scheme: https
+      documented: false
+      note: No first-party public REST API is documented for the Canadian TD Bank Group entity.
+  specProvenance: none — no OpenAPI/Swagger harvested; no first-party spec published by the Canadian parent.
+sources:
+  - url: https://www.td.com/ca/en
+    type: Website
+    httpStatus: 200
+    note: Canadian TD homepage (www.td.com bare host redirects to /us/en; /ca/en is the Canadian canonical).
+  - url: https://stories.td.com/ca/en/news/2023-12-14-td-bank-group-and-plaid-enter-into-north-american-data-acces
+    type: Documentation
+    httpStatus: 200
+    note: TD Stories announcement of the TD Bank Group + Plaid North American data-access agreement (Dec 2023) — the honest aggregator data-access posture.
+  - url: https://www.td.com/ca/en/business-banking/small-business/payment-options/receiving/online-payment
+    type: Documentation
+    httpStatus: 200
+    note: TD Canada Trust supports Interac e-Transfer for receiving online payments.
+  - url: https://developer.td.com
+    type: DeveloperPortal
+    httpStatus: 000
+    note: Did not resolve from this environment (DNS ENOTFOUND). This FDX/Akoya portal is the U.S. TD Bank, N.A. entity (profiled under api-evangelist/td-bank), NOT the Canadian parent.
+  - url: https://www.payments.ca/systems-services/payment-systems/real-time-rail-payment-system/real-time-rail-developers
+    type: Documentation
+    note: Payments Canada Real-Time Rail developer portal/sandbox — shared national rail, operated by Payments Canada, not a TD first-party API.
+actions:
+  openapiHarvested: false
+  reason: |
+    No public OpenAPI/Swagger is published by the Canadian TD Bank Group entity.
+    The only documented first-party specs (FDX/Akoya) belong to the separate U.S.
+    subsidiary. Identity-only bootstrap with an honest aggregator-only data-access
+    finding is the correct, non-fabricated result.

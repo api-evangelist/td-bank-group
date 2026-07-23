@@ -1,0 +1,77 @@
+aid: td-bank-group
+url: https://raw.githubusercontent.com/api-evangelist/td-bank-group/refs/heads/main/apis.yml
+name: TD Bank Group
+kind: company
+description: >-
+  TD Bank Group (The Toronto-Dominion Bank) is one of Canada's Big Six chartered
+  banks — a federally regulated Schedule I bank headquartered in Toronto and
+  listed on the TSX and NYSE under the ticker TD. It is among North America's
+  largest banks by assets, serving roughly 27 million customers worldwide across
+  Canadian Personal & Commercial Banking (TD Canada Trust), U.S. Retail (TD
+  Bank, N.A. — America's Most Convenient Bank, a separately profiled entity), and
+  Wholesale Banking (TD Securities). Like the rest of Canada's banking sector,
+  TD's open-finance posture is voluntary: Canada's Consumer-Driven Banking
+  framework was legislated in 2024 (Consumer-Driven Banking Act) but is not yet
+  operational, so the Canadian parent exposes no first-party public developer
+  API. Consumer financial-data access today is aggregator-based — TD signed a
+  North American data-access agreement with Plaid in December 2023 — while
+  payments run over the shared Canadian rails (Interac e-Transfer and Payments
+  Canada's Real-Time Rail, with Interac as the RTR exchange solution provider).
+  The FDX-aligned, Akoya-based open-banking API suite published at
+  developer.td.com belongs to the U.S. subsidiary TD Bank, N.A., not this
+  Canadian entity.
+accessModel:
+  pricing: none
+  onboarding: approval
+  public: false
+  label: No public API · Aggregator-based data access (partner-gated)
+  confidence: high
+  source:
+  - research
+  generated: '2026-07-23'
+  method: manual
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+- Financial Services
+- Banking
+- Canada
+- Big Six
+- Schedule I Bank
+- Open Banking
+- Consumer-Driven Banking
+- Interac
+- Payments
+- Data Aggregation
+created: '2026-07-23'
+modified: '2026-07-23'
+specificationVersion: '0.19'
+apis:
+- aid: td-bank-group:consumer-data-access
+  name: TD Consumer Financial Data Access (Aggregator)
+  description: >-
+    TD Bank Group does not publish a first-party public developer API for the
+    Canadian entity. Consumer financial-data sharing is provided through
+    third-party aggregators under bilateral data-access agreements (notably a
+    North American data-access agreement with Plaid announced December 2023).
+    Access is partner-gated and not openly documented; there is no downloadable
+    OpenAPI/Swagger and no self-serve developer onboarding for the Canadian
+    parent.
+  humanURL: https://stories.td.com/ca/en/news/2023-12-14-td-bank-group-and-plaid-enter-into-north-american-data-acces
+  tags:
+  - Data Aggregation
+  - Open Banking
+  properties:
+  - type: Documentation
+    url: https://stories.td.com/ca/en/news/2023-12-14-td-bank-group-and-plaid-enter-into-north-american-data-acces
+common:
+- type: Website
+  url: https://www.td.com/ca/en
+- type: LinkedIn
+  url: https://www.linkedin.com/company/td
+- type: Blog
+  url: https://stories.td.com/ca/en
+- type: PrivacyPolicy
+  url: https://www.td.com/ca/en/privacy
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
