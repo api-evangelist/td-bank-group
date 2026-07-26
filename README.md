@@ -34,11 +34,6 @@ Payments run over Canada's shared rails — **Interac e-Transfer** (supported fo
 
 ## APIs
 
-### TD Consumer Financial Data Access (Aggregator)
-
-TD Bank Group does not publish a first-party public developer API for the Canadian entity. Consumer financial-data sharing is provided through third-party aggregators under bilateral data-access agreements (notably Plaid, December 2023). Access is partner-gated and not openly documented.
-
-- **Human URL:** [TD Bank Group and Plaid enter into North American data-access agreement](https://stories.td.com/ca/en/news/2023-12-14-td-bank-group-and-plaid-enter-into-north-american-data-acces)
 
 #### Tags
 
