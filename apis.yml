@@ -1,5 +1,7 @@
 aid: td-bank-group
 url: https://raw.githubusercontent.com/api-evangelist/td-bank-group/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 name: TD Bank Group
 kind: company
 description: >-
