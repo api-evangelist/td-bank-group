@@ -20,6 +20,17 @@ description: >-
   The FDX-aligned, Akoya-based open-banking API suite published at
   developer.td.com belongs to the U.S. subsidiary TD Bank, N.A., not this
   Canadian entity.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: none
   onboarding: approval
